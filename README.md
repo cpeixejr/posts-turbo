@@ -1,24 +1,5 @@
-# README
+# Posts Turbo App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplicação criada usando Rails 7 para demonstrar as funcionalidades do Hotwire/Turbo
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Vídeo no YouTube](https://www.youtube.com/channel/UCZkgI6Sc9PRl_lywhD-IbKg)
