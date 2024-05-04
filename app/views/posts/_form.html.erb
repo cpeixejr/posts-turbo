@@ -1,6 +1,6 @@
 <%= simple_form_for post, html: { class: 'form post'} do |form| %>
   <% if post.errors.any? %>
-    <div style="color: red">
+    <div style="color: red;flex-basis: 100%">
       <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
 
       <ul>
@@ -11,8 +11,9 @@
     </div>
   <% end %>
 
-  <%= form.input :title %>
+  <%= form.input :title, input_html: {autofocus: true} %>
   <%= form.input :body %>
+  <%= link_to "Cancel", posts_path, class: "btn btn--light" %>
 
   <%= form.submit class: "btn btn--primary" %>
 <% end %>
